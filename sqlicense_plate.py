@@ -34,7 +34,7 @@ def check_license_plate(license_plate):
     c.execute("SELECT * FROM plates WHERE license_plate=?", (license_plate,))
     result = c.fetchone()
     conn.close()
-    return "RECOGNIZED" if result else "NO DATA"
+    return "RECOGNIZED: " + license_plate if result else "NO DATA ON: " + license_plate
 
 # Create the database and table
 # create_database()
