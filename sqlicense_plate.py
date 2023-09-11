@@ -1,5 +1,6 @@
 import sqlite3
 
+
 # Create database and table
 def create_database():
     conn = sqlite3.connect("license_plates.db")
@@ -13,6 +14,7 @@ def create_database():
     conn.commit()
     conn.close()
 
+
 # Add license plate to the database
 def add_license_plate(license_plate):
     conn = sqlite3.connect("license_plates.db")
@@ -24,6 +26,7 @@ def add_license_plate(license_plate):
     conn.commit()
     conn.close()
 
+
 # Check if license plate exists in the database
 def check_license_plate(license_plate):
     conn = sqlite3.connect("license_plates.db")
@@ -34,12 +37,11 @@ def check_license_plate(license_plate):
     return "RECOGNIZED" if result else "NO DATA"
 
 # Create the database and table
-create_database()
+# create_database()
 
 # Add some test data
-add_license_plate("ABC123")
-add_license_plate("XYZ789")
+# add_license_plate("ABC123")
 
 # Test the function
-print(check_license_plate("ABC123"))  # Should print "RECOGNIZED"
-print(check_license_plate("NOT_IN_DB"))  # Should print "NO DATA"
+# print(check_license_plate("ABC123"))  # Should print "RECOGNIZED"
+# print(check_license_plate("NOT_IN_DB"))  # Should print "NO DATA"
