@@ -4,7 +4,7 @@ import pytesseract
 
 def img_to_text(image_path):
     # Configure Tesseract path
-    pytesseract.pytesseract.tesseract_cmd = r'C:/path/to/tesseract.exe'
+    pytesseract.pytesseract.tesseract_cmd = r'C:path\to\tesseract.exe'
 
     # Load the image
     image = cv2.imread(image_path)
