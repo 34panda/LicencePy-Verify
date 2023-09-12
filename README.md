@@ -1,7 +1,10 @@
 # LicencePy-Verify 🚗
 
-| ![ Python]( https://img.shields.io/badge/python-3.x-blue.svg ) | ![ OpenCV]( https://img.shields.io/badge/OpenCV-4.x-green.svg ) | ![ SQLite]( https://img.shields.io/badge/SQLite-3.x-orange.svg ) | ![ Tesseract]( https://img.shields.io/badge/Tesseract-4.x-red.svg ) |
-|----------------------------------------------------------------|-----------------------------------------------------------------|------------------------------------------------------------------|---------------------------------------------------------------------|
+![ Python]( https://img.shields.io/badge/python-3.x-blue.svg )
+![ OpenCV]( https://img.shields.io/badge/OpenCV-4.x-green.svg )
+![ SQLite]( https://img.shields.io/badge/SQLite-3.x-orange.svg )
+![ Tesseract]( https://img.shields.io/badge/Tesseract-4.x-red.svg )
+
 ## 🌟 Overview
 
 This project aims to recognize and verify license plate numbers from an image 📷. It utilizes OpenCV for image processing and Tesseract for Optical Character Recognition (OCR). The license plate numbers are verified against an SQLite database 🛡.
