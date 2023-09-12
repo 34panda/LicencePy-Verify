@@ -9,6 +9,10 @@
 
 This project aims to recognize and verify license plate numbers from an image 📷. It utilizes OpenCV for image processing and Tesseract for Optical Character Recognition (OCR). The license plate numbers are verified against an SQLite database 🛡.
 
+---
+![main-img](main-img.jpg)
+---
+
 ## 🛠 Requirements
 
 - Python 3.x
